@@ -1,0 +1,44 @@
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E1F0FC;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 25px;
+    background-color: #D7EBFC;
+    color: #4176A2;
+    border: 3px dashed #A0AEBA;
+}
+
+code pre {
+    font-family: 'IBM Plex Mono', monospace;;
+}
+
+section.general div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+section.general img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+ul li {
+    margin-top: 10px;
+}
+
+.goal {
+    border-left: 3px solid #A0AEBA;
+    padding: 10px;
+}
